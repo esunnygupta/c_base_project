@@ -9,7 +9,7 @@ setup:
 	@$(MKDIR) -p build
 	@$(MKDIR) -p out
 
-lib:
+library:
 	@$(MKDIR) -p ./lib/json-c/build
 	@$(CD) ./lib/json-c/build && cmake ..
 	$(MAKE) -C ./lib/json-c/build
