@@ -5,9 +5,8 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
- 
 
-# Make data base, printed on Sat Aug 13 14:25:57 2022
+# Make data base, printed on Sun Sep  4 12:58:49 2022
 
 # Variables
 
@@ -27,8 +26,6 @@ SNAP_COMMON = /var/snap/code/common
 XDG_SESSION_TYPE = x11
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
-# environment
-IM_CONFIG_PHASE = 2
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # environment
@@ -38,17 +35,17 @@ GDMSESSION = ubuntu
 # environment
 XMODIFIERS = @im=ibus
 # makefile
-CURDIR := /home/sunny/violet/projects/base/c_base_project
+CURDIR := /home/sunny/learnIt/c/json_c/c_base_project
 # makefile
 SHELL = /bin/sh
 # makefile (from 'inc.mk', line 4)
 RM = rm
 # environment
-SNAP_DATA = /var/snap/code/104
+SNAP_DATA = /var/snap/code/106
+# environment
+VTE_VERSION = 5202
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
-# environment
-_ = /snap/code/104/usr/share/code/code
 # makefile (from 'inc.mk', line 10)
 CFLAGS = 
 # environment
@@ -64,7 +61,7 @@ MAKEFILE_LIST :=  Makefile inc.mk
 # makefile (from 'inc.mk', line 1)
 CP = cp
 # environment
-GIO_LAUNCHED_DESKTOP_FILE = /var/lib/snapd/desktop/applications/code_code.desktop
+IM_CONFIG_PHASE = 2
 # environment
 USERNAME = sunny
 # environment
@@ -80,17 +77,17 @@ CLUTTER_IM_MODULE = xim
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
-VSCODE_CWD = /home/sunny
+VSCODE_CWD = /home/sunny/learnIt/c/json_c/c_base_project
 # environment
-GSETTINGS_SCHEMA_DIR = /snap/code/104/usr/share/glib-2.0/schemas
+GSETTINGS_SCHEMA_DIR = /snap/code/106/usr/share/glib-2.0/schemas
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /home/sunny/.local/bin:/opt/anaconda3/condabin:/home/sunny/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sunny/.local/bin
+PATH = /opt/anaconda3/condabin:/home/sunny/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sunny/.local/bin
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-SESSION_MANAGER = local/sunny-pc:@/tmp/.ICE-unix/2038,unix/sunny-pc:/tmp/.ICE-unix/2038
+SESSION_MANAGER = local/sunny-pc:@/tmp/.ICE-unix/2136,unix/sunny-pc:/tmp/.ICE-unix/2136
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -98,27 +95,23 @@ GDK_PIXBUF_MODULE_FILE = /home/sunny/snap/code/common/.cache/gdk-pixbuf-loaders.
 # environment
 TEXTDOMAIN = im-config
 # environment
-SNAP = /snap/code/104
+SNAP = /snap/code/106
 # environment
-SNAP_VERSION = 6d9b74a7
+SNAP_VERSION = 784b0177
 # environment
 XDG_MENU_PREFIX = gnome-
 # environment
-DISABLE_WAYLAND = 1
-# environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-GDK_PIXBUF_MODULEDIR = /snap/code/104/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+GDK_PIXBUF_MODULEDIR = /snap/code/106/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
-LS_COLORS = 
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
 # environment
 XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
-# environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 13958
 # automatic
 %F = $(notdir $%)
 # environment
@@ -130,11 +123,11 @@ GTK_IM_MODULE = ibus
 # environment
 SNAP_INSTANCE_KEY = 
 # environment
-PWD = /home/sunny/violet/projects/base/c_base_project
+PWD = /home/sunny/learnIt/c/json_c/c_base_project
 # environment
 XDG_SEAT = seat0
 # environment
-SSH_AGENT_PID = 2136
+SSH_AGENT_PID = 2236
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -148,7 +141,7 @@ LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
 VSCODE_CLI = 1
 # environment
-VSCODE_CODE_CACHE_PATH = /home/sunny/.config/Code/CachedData/6d9b74a70ca9c7733b29f0456fd8195364076dda
+VSCODE_CODE_CACHE_PATH = /home/sunny/.config/Code/CachedData/784b0177c56c607789f9638da7b6bf3230d47a8c
 # environment
 LOGNAME = sunny
 # environment
@@ -179,6 +172,8 @@ XDG_VTNR = 2
 MAKELEVEL := 0
 # environment
 SNAP_REAL_HOME = /home/sunny
+# environment
+COLORTERM = truecolor
 # default
 MAKE = $(MAKE_COMMAND)
 # default
@@ -188,7 +183,7 @@ QT_IM_MODULE = ibus
 # makefile (from 'inc.mk', line 7)
 SRCS = $(wildcard src/*/*.c)
 # environment
-SNAP_USER_DATA = /home/sunny/snap/code/104
+SNAP_USER_DATA = /home/sunny/snap/code/106
 # environment
 SHLVL = 1
 # environment
@@ -198,7 +193,7 @@ XDG_SESSION_ID = 2
 # environment
 USER = sunny
 # environment
-SNAP_REVISION = 104
+SNAP_REVISION = 106
 # makefile
 .DEFAULT_GOAL := all
 # environment
@@ -211,17 +206,16 @@ LIBVIRT_DEFAULT_URI = qemu:///system
 CONDA_SHLVL = 0
 # default
 MAKE_COMMAND := make
+# environment
+OLDPWD = /home/sunny/learnIt/c/json_c/c_base_project/lib
 # default
 .VARIABLES := 
 # automatic
 *F = $(notdir $*)
 # environment
 LANGUAGE = en_IN:en
- 
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-668ab3f0-1.70.1-main.sock
-# environment
-BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
+VSCODE_IPC_HOOK = /run/user/1000/vscode-668ab3f0-1.71.0-main.sock
 # makefile
 MAKEFLAGS = pqrR
 # environment
@@ -256,10 +250,14 @@ CONDA_PYTHON_EXE = /opt/anaconda3/bin/python
 QT4_IM_MODULE = xim
 # environment
 GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# environment
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/1b683da4_2407_4da4_8e23_c7ebe4f5ad87
 # automatic
 ^F = $(notdir $^)
 # makefile (from 'inc.mk', line 2)
 MV = mv
+# environment
+GNOME_TERMINAL_SERVICE = :1.77
 # default
 SUFFIXES := 
 # environment
@@ -278,14 +276,17 @@ GJS_DEBUG_OUTPUT = stderr
 .RECIPEPREFIX := 
 # makefile (from 'inc.mk', line 5)
 EXE = vl_app.elf
+ 
 # environment
 LANG = C
 # environment
-VSCODE_PID = 14005
+TERM = xterm-256color
+# environment
+VSCODE_PID = 18234
 # environment
 _CE_CONDA = 
 # variable set hash-table stats:
-# Load=136/1024=13%, Rehash=0, Collisions=21/171=12%
+# Load=137/1024=13%, Rehash=0, Collisions=19/172=11%
 
 # Pattern-specific Variable Values
 
@@ -293,17 +294,17 @@ _CE_CONDA =
 
 # Directories
 
-# . (device 2050, inode 22685097): 8 files, no impossibilities.
-# src/tests (device 2050, inode 22685507): 3 files, no impossibilities.
-# src (device 2050, inode 22685109): 4 files, no impossibilities.
-# src/app (device 2050, inode 22685506): 3 files, no impossibilities.
+# . (device 2050, inode 22819918): 9 files, no impossibilities.
+# src/tests (device 2050, inode 22819983): 3 files, no impossibilities.
+# src (device 2050, inode 22819980): 4 files, no impossibilities.
+# src/app (device 2050, inode 22819981): 3 files, no impossibilities.
 
-# 18 files, no impossibilities in 4 directories.
+# 19 files, no impossibilities in 4 directories.
 
 # Implicit Rules
 
 %.o: %.c
-#  recipe to execute (from 'Makefile', line 22):
+#  recipe to execute (from 'Makefile', line 24):
 	$(CC) $(IDIR) $(CFLAGS) -c $<
 
 # 1 implicit rules, 0 (0.0%) terminal.
@@ -314,9 +315,9 @@ setup:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 6):
+#  recipe to execute (from 'Makefile', line 9):
 	@$(MKDIR) -p build
-	@echo $(OBJS)
+	@$(MKDIR) -p out
 
 # Not a target:
 src/app/app.o:
@@ -343,13 +344,12 @@ src/tests/tests.o:
 .SUFFIXES:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
- 
 #  File has not been updated.
 
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-13 14:25:27.009522159
+#  Last modified 2022-09-04 12:47:07.290443998
 #  File has been updated.
 #  Successfully updated.
 
@@ -357,10 +357,9 @@ build: src/tests/tests.o src/app/app.o
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 10):
-	$(MV) *.o build
+#  recipe to execute (from 'Makefile', line 13):
+	@$(MV) *.o build
 	$(CC) -o $(EXE) build/*.o $(CFLAGS) $(LDFLAGS) $(LIBS)
-	@$(MKDIR) -p out
 	$(MV) $(EXE) out
 
 # Not a target:
@@ -368,6 +367,13 @@ build: src/tests/tests.o src/app/app.o
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
+
+run:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 6):
+	@./out/$(EXE)
 
 clean:
 #  Implicit rule search has not been done.
@@ -393,7 +399,7 @@ clean:
 # ? := 
 # variable set hash-table stats:
 # Load=8/32=25%, Rehash=0, Collisions=1/14=7%
-#  recipe to execute (from 'Makefile', line 16):
+#  recipe to execute (from 'Makefile', line 18):
 	@$(RM) -rf build
 	@$(RM) -rf *.o
 	@$(RM) -rf out
@@ -402,24 +408,24 @@ clean:
 # Not a target:
 inc.mk:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-13 14:18:26.145764179
+#  Last modified 2022-09-04 12:47:07.290443998
 #  File has been updated.
 #  Successfully updated.
 
 # files hash-table stats:
-# Load=10/1024=1%, Rehash=0, Collisions=0/31=0%
+# Load=11/1024=1%, Rehash=0, Collisions=0/32=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 26 / storage = 200 B / avg = 7 B
-# current buf: size = 8162 B / used = 200 B / count = 26 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 28 / storage = 209 B / avg = 7 B
+# current buf: size = 8162 B / used = 209 B / count = 28 / avg = 7 B
 
-# strcache performance: lookups = 48 / hit rate = 45%
+# strcache performance: lookups = 51 / hit rate = 45%
 # hash-table stats:
-# Load=26/8192=0%, Rehash=0, Collisions=4/48=8%
-# Finished Make data base on Sat Aug 13 14:25:57 2022
+# Load=28/8192=0%, Rehash=0, Collisions=4/51=8%
+# Finished Make data base on Sun Sep  4 12:58:49 2022
 
  

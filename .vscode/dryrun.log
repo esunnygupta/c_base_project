@@ -1,16 +1,15 @@
-make --dry-run --keep-going --print-directory
-make: Entering directory '/home/sunny/violet/projects/base/c_base_project'
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/sunny/learnIt/c/json_c/c_base_project'
 rm -rf build
 rm -rf *.o
 rm -rf out
 clear
 mkdir -p build
-echo src/tests/tests.o src/app/app.o
+mkdir -p out
 cc -I./include  -c src/tests/tests.c
 cc -I./include  -c src/app/app.c
 mv *.o build
 cc -o vl_app.elf build/*.o   
-mkdir -p out
 mv vl_app.elf out
-make: Leaving directory '/home/sunny/violet/projects/base/c_base_project'
+make: Leaving directory '/home/sunny/learnIt/c/json_c/c_base_project'
  
